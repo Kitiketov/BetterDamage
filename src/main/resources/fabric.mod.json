@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "betterdamage",
+  "version": "${version}",
+  "name": "BetterDamage",
+  "description": "Mod to link reality and minecraft.",
+  "authors": [
+    "kitiketov","7en0d"
+  ],
+  "contact": {},
+  "license": "All-Rights-Reserved",
+  "icon": "assets/betterdamage/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "net.horny_tomato.betterdamage.client.BetterDamageClient"
+    ],
+    "main": [
+      "net.horny_tomato.betterdamage.BetterDamage"
+    ]
+  },
+  "mixins": [
+    "betterdamage.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}

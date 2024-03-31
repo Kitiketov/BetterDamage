@@ -1,0 +1,8 @@
+/gamemode creative
+/setworldspawn
+/gamerule keepInventory true
+/gamemode survival
+/gamemode creative
+/gamemode survival
+/gamemode creative
+/gamemode survival
